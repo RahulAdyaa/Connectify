@@ -66,11 +66,11 @@ page2animation()
 
 var nav_get_started_btn=document.querySelector(".get_started-btn-nav")
 nav_get_started_btn.addEventListener("click",function(){
-  window.location.href="./westudy/signuppage.html"
+  window.location.href="./signuppage.html"
 })
 
 var about_us_btn=document.querySelector(".about-us-btn")
 about_us_btn.addEventListener("click",function(){
-  window.location.href="/landing_page.html"
+  window.location.href="landing_page.html"
 })
 
