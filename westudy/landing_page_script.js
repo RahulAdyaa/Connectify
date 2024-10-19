@@ -63,8 +63,8 @@ function page2animation(){
     
 page2animation()
 
-
-var nav_get_started_btn=document.querySelector(".get_started-btn-nav")
+function getstarted_btn_routing(){
+  var nav_get_started_btn=document.querySelector(".get_started-btn-nav")
 nav_get_started_btn.addEventListener("click",function(){
   window.location.href="./signuppage.html"
 })
@@ -74,3 +74,51 @@ about_us_btn.addEventListener("click",function(){
   window.location.href="landing_page.html"
 })
 
+}
+
+getstarted_btn_routing()
+
+
+
+
+
+
+function page8_Animations(){
+  gsap.from("#btm-8-part-2 h4",{
+    x:0,
+    duration:1,
+    scrollTrigger:{
+      trigger:"#btm-8-part-2",
+      scroller:"#main",
+      start:"top 80%",
+      end:"top 10%",
+      scrub:true
+    }
+    
+  })
+  gsap.from("#btm-8-part-3 h4",{
+    x:0,
+    duration:9,
+    scrollTrigger:{
+      trigger:"#btm-8-part-2",
+      scroller:"#main",
+      start:"top 80%",
+      end:"top 10%",
+      scrub:true
+    }
+    
+  })
+  gsap.from("#btm-8-part-4 h4",{
+    x:0,
+    duration:9,
+    scrollTrigger:{
+      trigger:"#btm-8-part-2",
+      scroller:"#main",
+      start:"top 80%",
+      end:"top 10%",
+      scrub:true
+    }
+    
+  })
+}
+page8_Animations()

@@ -53,7 +53,7 @@ body {
     align-items: center; */
 }
 #nav_container {
-    width: 85%;
+    width: 195%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -210,11 +210,11 @@ nav ul li a:hover {
 
 
 #hero_container h1 {
-    font-size: 7rem;
-    font-weight: 700;
+    font-size: 5rem;
+    font-weight: 500;
     color: #eeeeee;
-    width: 100%;
-    font-family: Bonheur Royale;
+    width: 80%;
+    font-family: DM Sans;
     /* font-family: */
 }
 
@@ -245,6 +245,8 @@ nav ul li a:hover {
     /* gap: 30px; */
     margin-bottom: 40px;
     color: white;
+    padding-top: 8vh;
+    
 }
 
 /*MOVING DIV*/
@@ -258,6 +260,7 @@ nav ul li a:hover {
     white-space: nowrap;
     padding: 1.3vw;
     overflow: hidden;
+    
    
 }
 #moving-div .move{
@@ -321,7 +324,7 @@ nav ul li a:hover {
   font-size: 1rem;
 
   border: 0;
-
+    
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -359,6 +362,7 @@ nav ul li a:hover {
 .get_started-btn-nav:active {
   background: var(--color);
   color: #fff;
+  
 }
 
 
@@ -693,3 +697,155 @@ footer {
 footer p {
     font-size: 14px;
 }
+
+
+#page-7{
+    min-height:100vh ;
+    width: 100%;
+    background-color: #111;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5vh 10.5vw;
+}
+#page-7>button{
+    background-color: #0BA34E;
+    padding: 0.8vw 1vw;
+    font-size: 1vw;
+    border-radius: 50px;
+    font-family: DM Sans;
+    border: none;
+    position: sticky;
+    top: 15%;
+    cursor: pointer;
+    color: #fff;
+}
+#page-7-right{
+    width: 70%;
+}
+#page-7-right>p{
+    font-size: 2.1vw;
+    font-family: DM Sans;
+    font-weight: 300;
+    color: #fff;
+
+    
+    
+}
+#page-7-right span{
+    display: inline-block;
+    width: 14vw;
+}
+#page-7-right-span-1{
+    font-size: 1vw;
+    font-family: DM Sans;
+    font-weight: 200;
+    color: #fff;
+}
+#page-7-content{
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 5vh;
+    border-top: 2px;
+}
+#page-7-content h2{
+    font-family: DM Sans;
+    font-size: 2.7vw;
+    font-weight: 500;
+    color: #fff;
+}
+#page-7-content #flex{
+    display: flex;
+    gap: 4px;
+    margin-top: 1.8vw;
+    padding-bottom: 8vh;
+}
+#page-7-content #flex h4{
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-weight: 400;
+    padding:  10px 10px;
+    font-size: 0.7vw;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+#page-7-elem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: red; */
+    /* padding: 2vh 0; */
+
+    padding-bottom: 8vh;
+    border-top: 2px solid #333;
+    padding-top: 7vh;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s ;
+    overflow: hidden;
+    position: relative;
+}
+#page-7-elem p{
+    width: 55%;
+    font-size: 0.8vw;
+    position: relative;
+    z-index: 8;
+    color: #fff;
+}
+#page-7-elem h3{
+    color: #fff;
+    font-size: 1.5vw;
+    font-family: DM Sans;
+    font-weight: 300;
+    position: relative;
+    z-index: 8;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s ;
+}
+#page-7-elem i{
+    font-size: 1vw;
+    position: relative;
+    color: #fff;
+    z-index: 8;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s ;
+}
+#over{
+    height: 100%;
+    width: 100%;
+    background-color: #232323;
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s ;
+}
+#page-7-elem:hover h3{
+    padding-left: 0.8vw;
+    
+}
+#page-7-elem:hover i{
+    padding-right: 0.8vw;
+}
+#page-7-elem:hover #over{
+    transform: translateY(0);
+    opacity: 1;
+    /* border-top: 2px solid #fff; */
+}
+#page-7-elem:hover{
+    border-top: 2px solid #fff;
+}
+
+summary::marker{
+    content: "";
+}
+#uiux{
+    border-top: 2px solid #a2a2a2;
+    padding-top: 5vw;
+    
+}
+#product{
+    border-top: 2px solid #a2a2a2;
+    padding-top: 5vw;
+
+}
+
