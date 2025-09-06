@@ -1,7 +1,3 @@
-Here is your fully formatted README.md text, now enhanced with the provided screenshots and a professional layout.  
-You can copy this directly into your project’s README.md.
-
-```markdown
 # 💬 Connectify | Real-Time Communication Platform
 
 <div align="center">
@@ -55,19 +51,19 @@ See Connectify in action below:
 
 ## 📂 Project Structure
 
-```
 Connectify/
 │
-├── public/                 # Static assets (CSS, images, etc.)
-├── src/                    # Client-side scripts
-│   ├── chat.js             # Chat logic (Socket.io)
-│   ├── video.js            # Video call logic (WebRTC)
-│   └── index.html          # Landing page
+├── public/ # Static assets (CSS, images, etc.)
+├── src/ # Client-side scripts
+│ ├── chat.js # Chat logic (Socket.io)
+│ ├── video.js # Video call logic (WebRTC)
+│ └── index.html # Landing page
 │
-├── server.js               # Node.js + Socket.io server
-├── package.json            # Dependencies & scripts
-└── README.md               # Documentation
-```
+├── server.js # Node.js + Socket.io server
+├── package.json # Dependencies & scripts
+└── README.md # Documentation
+
+text
 
 ---
 
@@ -87,19 +83,19 @@ Connectify/
 
 ### ⚙️ Installation & Setup
 
-```
-# Clone the repository
+Clone the repository
 git clone https://github.com/RahulAdyaa/Connectify.git
 cd Connectify
 
-# Install dependencies
+Install dependencies
 npm install
 
-# Run the server
+Run the server
 npm start
-```
 
-Your project will start running at: **http://localhost:3000**
+text
+
+Your project will start running at: [**http://localhost:3000**](http://localhost:3000)
 
 ---
 
@@ -136,17 +132,17 @@ Contributions are always welcome 🚀
 
 1. **Fork** the project  
 2. Create your **feature branch**:  
-   ```
-   git checkout -b feature/AmazingFeature
-   ```  
+git checkout -b feature/AmazingFeature
+
+text
 3. **Commit** your changes:  
-   ```
-   git commit -m "Add AmazingFeature"
-   ```  
+git commit -m "Add AmazingFeature"
+
+text
 4. **Push** to the branch:  
-   ```
-   git push origin feature/AmazingFeature
-   ```  
+git push origin feature/AmazingFeature
+
+text
 5. Open a **Pull Request**
 
 ---
@@ -154,13 +150,3 @@ Contributions are always welcome 🚀
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-```
-
-**Tips:**  
-- If you want the images to display correctly on GitHub, ensure you upload them to your repo and replace `attached_image:1`, `attached_image:2`, and `attached_image:3` with the proper paths, like `./screenshots/landing_page.png`, etc.
-- Adjust section titles and add more screenshots as your project evolves!
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/93272899/f2666a0f-1486-4562-9622-7ae2bdf3a70c/image.jpg?AWSAccessKeyId=ASIA2F3EMEYE5MW4VXBX&Signature=2m%2B5MB9WStlYrv3DXdAR%2Fyhk5NQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjECIaCXVzLWVhc3QtMSJGMEQCIC7SzMF3nKbJtd7isnNQFH3ea3n%2B%2FnI95M7nK1E2%2BhAwAiAYZ5oiyroXaH6pUaZwHcq%2FlvhIx75tSnuc2cCVbS57Eir6BAiL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAEaDDY5OTc1MzMwOTcwNSIMqE3BytKxoRjEcGM%2BKs4EBJohVPSV6zTdQX6Eze8kl%2BBD278bi1LbO6VR8IaehC3fWNwzF2JSgLAQKW0a%2BZMnhErb%2BoEXtoNjuyfmhSWwCqfn4bIP7X5mjIrEQBplYreaJ4iE2aRXMz2l7fQ8vpLWXw3EaN2zoiuqkE426wscW8Ow%2BGIUyNdJc3SN9kXUAmbAd%2FbC0YdyowLAkeSwVk%2BFcQZJsF98peIqvAwgrrnWEdQc%2BLuyAiGNipumiReI0%2F0dcsb846pThs4PXJVlRIT%2FKHGuLl3mMYO%2BNyneme%2BkWi4k2WTZ8S%2FnTb0tc8xyLlLve8IV4nOVhf8lqdwNAAtv3Utz3GTvbtAMSNPa0ym7XDrej5fK7IhmeAEOICQq0OLae3bDYZdRu9X7RkH7%2B1t2gLYNHxM%2BqzjlimZx%2Fw%2ByzXzcA8f70Ih4cgBrduWXm3FanI8jMAxHgzXaplVCVlsDmXeqSsKV%2F57m6EK0CznWTOPx1trfCDLIUzOjZ5SILj37GAXE2rgLxB4yTzVf%2FxCo%2FWSodVTYQeny8RMamddD%2Fq37XPEnPdid8ygf%2FB9jC4gRfMLKmfyLEol%2F%2Bzxu5ZALNQsJIH6vcySSqxOeOWXM7dby9ShlIeEqUKH%2BRW%2FPssLV7wZqcvqyC%2FcbIVQPP59n%2FT6dHY7%2FHBFNC%2Fvf2l8%2F0O52BLnXl78EnG3hu%2FFHAsdU7RkANTx9SKi8DV5yRMJZ2KbDopFYtMbC2pMF8OQUlocQ6sSJFIXAhRLwVsnOB%2Fsp3sU%2ByhmGd0dZMhnJAk9kanIxtUQ0rt%2Bo7xxMbXAwponwxQY6mwGHEjhVRQKLNzewaQyEYNSbx4xfOeI1nTgAPoc1sHnolRPFY4S%2F%2BGF2fvRUlB3IoOYgDOenBenQbkLzAKVcFeiGDV78mHsgUE2OUa5knS0FwU5PuTSQEV5LLTAiUvW0ppGjHVx7%2Bumc4L1HVAci6TOLBh%2F5nJ6d4xsxEA2MUhbg1SZ1MfwJzGXIHW5I0SUal7v8H8R8C5AaCEHuqw%3D%3D&Expires=1757154127)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/93272899/67863b2a-eeb8-459b-9467-0a37c51bad82/image.jpg?AWSAccessKeyId=ASIA2F3EMEYE5MW4VXBX&Signature=GsIAez7BmNvUhT14a1V1scFR0jI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjECIaCXVzLWVhc3QtMSJGMEQCIC7SzMF3nKbJtd7isnNQFH3ea3n%2B%2FnI95M7nK1E2%2BhAwAiAYZ5oiyroXaH6pUaZwHcq%2FlvhIx75tSnuc2cCVbS57Eir6BAiL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAEaDDY5OTc1MzMwOTcwNSIMqE3BytKxoRjEcGM%2BKs4EBJohVPSV6zTdQX6Eze8kl%2BBD278bi1LbO6VR8IaehC3fWNwzF2JSgLAQKW0a%2BZMnhErb%2BoEXtoNjuyfmhSWwCqfn4bIP7X5mjIrEQBplYreaJ4iE2aRXMz2l7fQ8vpLWXw3EaN2zoiuqkE426wscW8Ow%2BGIUyNdJc3SN9kXUAmbAd%2FbC0YdyowLAkeSwVk%2BFcQZJsF98peIqvAwgrrnWEdQc%2BLuyAiGNipumiReI0%2F0dcsb846pThs4PXJVlRIT%2FKHGuLl3mMYO%2BNyneme%2BkWi4k2WTZ8S%2FnTb0tc8xyLlLve8IV4nOVhf8lqdwNAAtv3Utz3GTvbtAMSNPa0ym7XDrej5fK7IhmeAEOICQq0OLae3bDYZdRu9X7RkH7%2B1t2gLYNHxM%2BqzjlimZx%2Fw%2ByzXzcA8f70Ih4cgBrduWXm3FanI8jMAxHgzXaplVCVlsDmXeqSsKV%2F57m6EK0CznWTOPx1trfCDLIUzOjZ5SILj37GAXE2rgLxB4yTzVf%2FxCo%2FWSodVTYQeny8RMamddD%2Fq37XPEnPdid8ygf%2FB9jC4gRfMLKmfyLEol%2F%2Bzxu5ZALNQsJIH6vcySSqxOeOWXM7dby9ShlIeEqUKH%2BRW%2FPssLV7wZqcvqyC%2FcbIVQPP59n%2FT6dHY7%2FHBFNC%2Fvf2l8%2F0O52BLnXl78EnG3hu%2FFHAsdU7RkANTx9SKi8DV5yRMJZ2KbDopFYtMbC2pMF8OQUlocQ6sSJFIXAhRLwVsnOB%2Fsp3sU%2ByhmGd0dZMhnJAk9kanIxtUQ0rt%2Bo7xxMbXAwponwxQY6mwGHEjhVRQKLNzewaQyEYNSbx4xfOeI1nTgAPoc1sHnolRPFY4S%2F%2BGF2fvRUlB3IoOYgDOenBenQbkLzAKVcFeiGDV78mHsgUE2OUa5knS0FwU5PuTSQEV5LLTAiUvW0ppGjHVx7%2Bumc4L1HVAci6TOLBh%2F5nJ6d4xsxEA2MUhbg1SZ1MfwJzGXIHW5I0SUal7v8H8R8C5AaCEHuqw%3D%3D&Expires=1757154127)
-[3](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/93272899/68d18279-5100-4c94-97e9-e17766ba43dd/image.jpg?AWSAccessKeyId=ASIA2F3EMEYE5MW4VXBX&Signature=6ngHtEDbz2QONLHUW%2F0F%2BRNagV8%3D&x-amz-security-token=IQoJb3JpZ2luX2VjECIaCXVzLWVhc3QtMSJGMEQCIC7SzMF3nKbJtd7isnNQFH3ea3n%2B%2FnI95M7nK1E2%2BhAwAiAYZ5oiyroXaH6pUaZwHcq%2FlvhIx75tSnuc2cCVbS57Eir6BAiL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAEaDDY5OTc1MzMwOTcwNSIMqE3BytKxoRjEcGM%2BKs4EBJohVPSV6zTdQX6Eze8kl%2BBD278bi1LbO6VR8IaehC3fWNwzF2JSgLAQKW0a%2BZMnhErb%2BoEXtoNjuyfmhSWwCqfn4bIP7X5mjIrEQBplYreaJ4iE2aRXMz2l7fQ8vpLWXw3EaN2zoiuqkE426wscW8Ow%2BGIUyNdJc3SN9kXUAmbAd%2FbC0YdyowLAkeSwVk%2BFcQZJsF98peIqvAwgrrnWEdQc%2BLuyAiGNipumiReI0%2F0dcsb846pThs4PXJVlRIT%2FKHGuLl3mMYO%2BNyneme%2BkWi4k2WTZ8S%2FnTb0tc8xyLlLve8IV4nOVhf8lqdwNAAtv3Utz3GTvbtAMSNPa0ym7XDrej5fK7IhmeAEOICQq0OLae3bDYZdRu9X7RkH7%2B1t2gLYNHxM%2BqzjlimZx%2Fw%2ByzXzcA8f70Ih4cgBrduWXm3FanI8jMAxHgzXaplVCVlsDmXeqSsKV%2F57m6EK0CznWTOPx1trfCDLIUzOjZ5SILj37GAXE2rgLxB4yTzVf%2FxCo%2FWSodVTYQeny8RMamddD%2Fq37XPEnPdid8ygf%2FB9jC4gRfMLKmfyLEol%2F%2Bzxu5ZALNQsJIH6vcySSqxOeOWXM7dby9ShlIeEqUKH%2BRW%2FPssLV7wZqcvqyC%2FcbIVQPP59n%2FT6dHY7%2FHBFNC%2Fvf2l8%2F0O52BLnXl78EnG3hu%2FFHAsdU7RkANTx9SKi8DV5yRMJZ2KbDopFYtMbC2pMF8OQUlocQ6sSJFIXAhRLwVsnOB%2Fsp3sU%2ByhmGd0dZMhnJAk9kanIxtUQ0rt%2Bo7xxMbXAwponwxQY6mwGHEjhVRQKLNzewaQyEYNSbx4xfOeI1nTgAPoc1sHnolRPFY4S%2F%2BGF2fvRUlB3IoOYgDOenBenQbkLzAKVcFeiGDV78mHsgUE2OUa5knS0FwU5PuTSQEV5LLTAiUvW0ppGjHVx7%2Bumc4L1HVAci6TOLBh%2F5nJ6d4xsxEA2MUhbg1SZ1MfwJzGXIHW5I0SUal7v8H8R8C5AaCEHuqw%3D%3D&Expires=1757154127)
