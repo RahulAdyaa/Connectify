@@ -1,8 +1,10 @@
 # 💬 Connectify | Real-Time Communication Platform
 
 <div align="center">
+
 A real-time communication platform enabling users to **chat, share thoughts, and make video calls**.  
-Built with **WebRTC**, **Socket.io**, and a clean, responsive frontend.
+Built with **WebRTC**, **Socket.io**, and a clean, responsive frontend.  
+
 </div>
 
 <p align="center">
@@ -26,127 +28,102 @@ Built with **WebRTC**, **Socket.io**, and a clean, responsive frontend.
 
 ## 🚀 Demo
 
-See Connectify in action below:
+See Connectify in action below 👇
 
-### Landing Page  
-![Landing Page](attached_image:2)
-
-### Create or Join Room Page  
-![Create or Join Room](attached_image:1)
-
-### Sign In Page  
-![Sign In](attached_image:3)
+| Landing Page | Sign In Page | Join Room Page | Room (Video Call) |
+|--------------|--------------|----------------|------------------|
+| ![Landing Page](./westudy/images/web.png) | ![Sign In](./westudy/images/sign_in.png) | ![Join Room](./westudy/images/join_room.png) | ![Room](./westudy/images/room.png) |
 
 ---
 
 ## ✨ Features
 
-- 💬 Real-time text chat using **Socket.io**
-- 🎥 Peer-to-peer video calls powered by **WebRTC**
-- ⚡ Event-driven communication for **low latency performance**
-- 📱 Responsive UI built with **HTML, CSS, and JavaScript**
-- 🔒 Secure signaling handled by **Node.js + Express backend**
+- 💬 Real-time text chat using **Socket.io**  
+- 🎥 Peer-to-peer video calls powered by **WebRTC**  
+- ⚡ Event-driven communication for **low latency**  
+- 📱 Responsive UI with **HTML, CSS, and JavaScript**  
+- 🔒 Secure signaling handled by **Node.js + Express backend**  
 
 ---
 
 ## 📂 Project Structure
-
-Connectify/
+```bash
+CONNECTIFY/
 │
-├── public/ # Static assets (CSS, images, etc.)
-├── src/ # Client-side scripts
-│ ├── chat.js # Chat logic (Socket.io)
-│ ├── video.js # Video call logic (WebRTC)
-│ └── index.html # Landing page
+├── westudy/ 
+│   ├── images/             # Screenshots & static assets
+│   │   ├── web.png
+│   │   ├── sign_in.png
+│   │   ├── join_room.png
+│   │   └── room.png
+│   ├── js/                 # Client-side scripts
+│   ├── styles/             # CSS files
+│   ├── landing_page.html   # Landing page
+│   ├── room.html           # Video call room
+│   ├── lobby.html          # Lobby before joining
+│   └── ...
 │
-├── server.js # Node.js + Socket.io server
-├── package.json # Dependencies & scripts
-└── README.md # Documentation
+├── server.js               # Node.js + Socket.io server
+├── package.json            # Dependencies & scripts
+└── README.md               # Documentation
+🛠️ Tech Stack
+Frontend: HTML5, CSS3, JavaScript
 
-text
+Backend: Node.js, Express.js
 
----
+Real-Time Communication: WebRTC, Socket.io
 
-## 🛠️ Tech Stack
+🚀 Getting Started
+🔑 Prerequisites
+Node.js (>= 16.x)
 
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Backend:** Node.js, Express.js
-- **Real-Time Communication:** WebRTC, Socket.io
-
----
-
-## 🚀 Getting Started
-
-### 🔑 Prerequisites
-
-- Node.js (>= **16.x**)
-
-### ⚙️ Installation & Setup
-
-Clone the repository
+⚙️ Installation & Setup
+bash
+Copy code
+# Clone the repository
 git clone https://github.com/RahulAdyaa/Connectify.git
 cd Connectify
 
-Install dependencies
+# Install dependencies
 npm install
 
-Run the server
+# Run the server
 npm start
+Your project will run at: http://localhost:3000
 
-text
-
-Your project will start running at: [**http://localhost:3000**](http://localhost:3000)
-
----
-
-## 🌐 Live Demo
-
+🌐 Live Demo
 👉 [Add your deployed demo link here]
 
-## 🔗 GitHub Repository
+🔮 Future Enhancements
+👥 Group calls with multiple participants
 
-👉 [Connectify Repository](https://github.com/RahulAdyaa/Connectify)
+🔒 End-to-end encrypted chat
 
----
+👤 User authentication & profiles
 
-## 📸 Screenshots
+📱 Dedicated mobile app version
 
-| Landing Page              | Create/Join Room Page         | Sign In Page                 |
-|---------------------------|------------------------------|------------------------------|
-| ![Landing Page](attached_image:2) | ![Create or Join Room](attached_image:1) | ![Sign In](attached_image:3) |
-
----
-
-## 🔮 Future Enhancements
-
-- 👥 Group calls with multiple participants
-- 🔒 End-to-end encrypted chat
-- 👤 User authentication & profiles
-- 📱 Dedicated mobile app version
-
----
-
-## 🤝 Contributing
-
+🤝 Contributing
 Contributions are always welcome 🚀
 
-1. **Fork** the project  
-2. Create your **feature branch**:  
+Fork the project
+
+Create your feature branch:
+
+bash
+Copy code
 git checkout -b feature/AmazingFeature
+Commit your changes:
 
-text
-3. **Commit** your changes:  
+bash
+Copy code
 git commit -m "Add AmazingFeature"
+Push to the branch:
 
-text
-4. **Push** to the branch:  
+bash
+Copy code
 git push origin feature/AmazingFeature
+Open a Pull Request
 
-text
-5. Open a **Pull Request**
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+📄 License
+This project is licensed under the MIT License.
