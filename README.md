@@ -66,6 +66,7 @@ CONNECTIFY/
 ├── server.js               # Node.js + Socket.io server
 ├── package.json            # Dependencies & scripts
 └── README.md               # Documentation
+```
 🛠️ Tech Stack
 Frontend: HTML5, CSS3, JavaScript
 
