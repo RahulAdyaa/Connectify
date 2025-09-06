@@ -17,7 +17,7 @@ Built with **WebRTC**, **Socket.io**, and a clean, responsive frontend.
 </p>
 
 <p align="center">
-<a href="#-demo">View Demo</a> •
+
 <a href="#-features">Features</a> •
 <a href="#-project-structure">Project Structure</a> •
 <a href="#-getting-started">Getting Started</a> •
@@ -26,16 +26,7 @@ Built with **WebRTC**, **Socket.io**, and a clean, responsive frontend.
 
 ---
 
-## 🚀 Demo
 
-
-See Connectify in action below:
-
-| Landing Page | Sign In Page | Join Room Page | Room (Video Call) |
-|--------------|--------------|----------------|------------------|
-| ![Landing Page](./westudy/images/web.png) | ![Sign In](./westudy/images/sign_in.png) | ![Join Room](./westudy/images/join_room.png) | ![Room](./westudy/images/room.png) |
-
----
 
 ## ✨ Features
 
@@ -112,20 +103,23 @@ Fork the project
 
 Create your feature branch:
 
-bash
+```bash
 Copy code
 git checkout -b feature/AmazingFeature
 Commit your changes:
+```
 
-bash
+```bash
 Copy code
 git commit -m "Add AmazingFeature"
 Push to the branch:
+```
 
-bash
+```bash
 Copy code
 git push origin feature/AmazingFeature
 Open a Pull Request
+```
 
 📄 License
 This project is licensed under the MIT License.
