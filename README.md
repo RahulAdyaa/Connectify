@@ -28,7 +28,8 @@ Built with **WebRTC**, **Socket.io**, and a clean, responsive frontend.
 
 ## 🚀 Demo
 
-See Connectify in action below 👇
+
+See Connectify in action below:
 
 | Landing Page | Sign In Page | Join Room Page | Room (Video Call) |
 |--------------|--------------|----------------|------------------|
