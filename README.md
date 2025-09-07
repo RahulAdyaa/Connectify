@@ -16,15 +16,9 @@ Built with **WebRTC**, **Socket.io**, and a clean, responsive frontend.
 <img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" alt="WebRTC">
 </p>
 
-<p align="center">
 
-<a href="#-features">Features</a> •
-<a href="#-project-structure">Project Structure</a> •
-<a href="#-getting-started">Getting Started</a> •
-<a href="#-future-enhancements">Future Enhancements</a>
-</p>
 
----
+
 
 
 
